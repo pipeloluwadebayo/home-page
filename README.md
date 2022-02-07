@@ -1,3 +1,1 @@
-A web developer portfolio template
-
-VIEW SITE AT https://pipeloluwadebayo.github.io/samplefolio/
+https://pipeloluwadebayo.github.io/landing-page/
