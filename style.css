@@ -1,192 +1,169 @@
-body{
-    font-family: Arial, Helvetivca, sans-serif;
-    font-size:15px;
-    line-height:1.5;
-    padding: 0;
-    margin: 0;
-    background: #CCD1E4;
-  }
-  
-  .container{
-    width: 80%;
-    margin: auto;
-    overflow:hidden;
-  }
-  
-   ul{
-    margin: o;
-    padding: 0;
-  }
-  
-  /*  HEADER */
-  header{
-    color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #2F3A8F 5px solid;
-    
-  }
-  
-  header a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-  }
-  header a:hover{
-    color: #ffffff;
-    font-weight: bold;
-  }
-  
-  
-  header li{
-    float: left;
-    display: inline;
-    padding: 0 14px 0 14px;
-  }
-  
-  #brandname{
-    float: left;
-  }
-  #brandname h1{
-    margin: 0;
-  }
-  nav{
-    float: right;
-    margin-top: 5px;
-  }
-  .company-name{
-    color: white;
-    font-weight: bold;
-  }
-  
-  #welcome_text{
-    min-height: 400px;
-    background: url('https://previews.123rf.com/images/wamsler/wamsler1903/wamsler190300046/124159844-business-concept-capacity-for-teamwork-team-building-vector-illustration.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  #welcome_text h1{
-    margin-top: 10%;
-    font-weight: 900;
-    font-size: 200%;
-  }
-  /*  https://previews.123rf.com/images/wamsler/wamsler1903/wamsler190300046/124159844-business-concept-capacity-for-teamwork-team-building-vector-illustration.jpg*/
-  
-  /*    background: url('https://thestartupgen.com/wp-content/uploads/2019/10/team.jpg');*/
-  
+body {
+  font-family: Arial, Helvetivca, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background: #ebbee21f;
+}
 
-  
-  #services h2{
-    text-align: center;
-    margin-top: 5%;
-    font-size: 200%;
-  }
-  .services-box{
-    float: left;
-    text-align: center;
-    color: white;
-    width:30%;
-    margin: auto;
-    height: 200px;
-    padding: 12px;
-    margin: 0 5px;
-    border-radius: 33px;
-    background: #2F3A8F;
-    opacity: 0.6;
-    box-shadow: 5px 5px 10px #5C7AEA, -5px -5px 10px #3D56B2;
-  }
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
 
-  .about-box{
-    border-radius: 33px;
-    background: #2F3A8F;
-    opacity: 0.6;
-    box-shadow: 5px 5px 10px #5C7AEA, -5px -5px 10px #3D56B2;
-  }
-  /* .services-box img{
-    width: 90%;
-    height: auto;
-    border-radius: 25%;
-  } */
-  #about{
-    color: white;
-    margin: 3em 0;
-    margin-bottom: 10px; 
-  }
-  #about h2{
-    text-align: center;
-    font-size: 200%;
-  }
-  #about img{
-    float: left;
-    border-radius: 75%;
-    padding: 1em;
-    padding-bottom: 1em;
-  }
-  #about p{
-    padding-right: 3em;
-  }
-  
-/* #contact{
+ul {
+  margin: o;
+  padding: 0;
+}
+
+/*  HEADER */
+header {
+  background-color: #311139;
+  color: #ccd1e4;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #902174 5px solid;
+}
+
+nav a:link {
+  color: #ccd1e4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #902174;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 14px 0 14px;
+}
+
+#brandname {
+  float: left;
+}
+#brandname h1 {
+  margin: 0;
+}
+nav {
+  float: right;
+  margin-top: 5px;
+  text-align: center;
+}
+.company-name {
+  color: #fff;
+  font-weight: bold;
+}
+
+#welcome {
+  background: url("https://previews.123rf.com/images/wamsler/wamsler1903/wamsler190300046/124159844-business-concept-capacity-for-teamwork-team-building-vector-illustration.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+#services h2 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 200%;
+}
+.services-box {
+  float: left;
+  text-align: center;
+  color: #ccd1e4;
+  width: 30%;
+  margin: auto;
+  height: 200px;
+  padding: 12px;
+  margin: 0 5px;
   border-radius: 33px;
-  background: #2F3A8F;
-  opacity: 0.6;
-  box-shadow: 5px 5px 10px #5C7AEA, -5px -5px 10px #3D56B2;
-} */
-.search{
+  background: #311139;
+
+  box-shadow: 5px 5px 10px #ccd1e4, -5px -5px 10px #311139;
+}
+
+.about-box {
+  border-radius: 33px;
+  background: #311139;
+
+  box-shadow: 5px 5px 10px #ccd1e4, -5px -5px 10px #311139;
+}
+
+#about {
+  color: #ccd1e4;
+  margin: 3em 0;
+  margin-bottom: 10px;
+}
+#about h2 {
+  text-align: center;
+  font-size: 200%;
+}
+#about img {
+  float: left;
+  border-radius: 75%;
+  padding: 1em;
+  padding-bottom: 1em;
+}
+#about p {
+  padding-right: 3em;
+}
+
+.search {
   display: inline-block;
   padding: 1.5em 1em;
-  /* padding: 15px; */
   margin: 1em 0;
-  background: #2F3A8F;
-  opacity:0.7;
+  background: #311139;
 }
-.search input{
-  padding:  14px 20px;
+.search input {
+  padding: 14px 20px;
   height: 25px;
   width: 250px;
 }
-.search-btn{
+.search-btn {
   height: 35px;
-  background: #CCD1E4;
+  background: #902174;
   border: none;
   padding: 0 20px;
   color: #ffffff;
   border-radius: 15%;
 }
 
-#contact{
+#contact {
   margin: 2em 1em 7em 10em;
 }
-#login{
-margin-top: 2em;
+#login {
+  margin-top: 2em;
 }
-#contact-form input{
+#contact-form input {
   width: 50%;
-  padding:  12px 20px;
+  padding: 12px 20px;
   border: none;
-  border-bottom: 1px solid #2F3A8F;
+  border-bottom: 1px solid #902174;
   border-radius: 3px;
   box-sizing: border-box;
 }
-#message{
+#message {
   width: 50%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
   border: none;
-  border-bottom: 1px solid #2F3A8F;
+  border-bottom: 1px solid #902174;
   border-radius: 3px;
   resize: none;
 }
-.cbtn, .login-btn{
+.cbtn,
+.login-btn {
   height: 35px;
-  background: #6867AC;
+  background: #902174;
   border: none;
   border-radius: 15%;
   margin-top: 10px;
@@ -194,17 +171,16 @@ margin-top: 2em;
   color: #ffffff;
 }
 
-#login-form input{
+#login-form input {
   width: 30%;
-  padding:  12px 20px;
+  padding: 12px 20px;
   border: none;
-  border-bottom: 1px solid #2F3A8F;
+  border-bottom: 1px solid #902174;
   border-radius: 3px;
   box-sizing: border-box;
-} 
+}
 
-
-#contact{
+#contact {
   width: 50%;
   float: left;
 }
@@ -213,9 +189,9 @@ margin-top: 2em;
   margin-top: 250px;
 } */
 
-footer{
-  background: #2F3A8F;
-  opacity: 0.7;
+footer {
+  background: #311139;
+  color: #ccd1e4;
   padding: 0.7em;
   position: fixed;
   left: 0;
@@ -223,11 +199,11 @@ footer{
   width: 100%;
   text-align: center;
 }
-  /*
+/*
   #contact #login-form{
     float: right;
   } */
-  /* #contact-form{
+/* #contact-form{
     display: flex;
     float: left;
   }
@@ -252,8 +228,8 @@ footer{
   }
   
 */
-  
-  /* .form-container{
+
+/* .form-container{
     padding-top: 10px;
     border: 3px solid #fff;
     padding: 20px;
@@ -264,4 +240,3 @@ footer{
     float: left;
     padding: 20px;
   } */
-  
