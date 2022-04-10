@@ -93,14 +93,12 @@ nav {
 .about-box {
   border-radius: 33px;
   background: #311139;
-
   box-shadow: 5px 5px 10px #ccd1e4, -5px -5px 10px #311139;
 }
 
 #about {
   color: #ccd1e4;
   margin: 3em 0;
-  margin-bottom: 10px;
 }
 #about h2 {
   text-align: center;
@@ -108,9 +106,8 @@ nav {
 }
 #about img {
   float: left;
-  border-radius: 75%;
-  padding: 1em;
-  padding-bottom: 1em;
+  border-radius: 50%;
+  padding: 0 1.5em 0 1em;
 }
 #about p {
   padding-right: 3em;
@@ -185,10 +182,6 @@ nav {
   float: left;
 }
 
-/* #login{
-  margin-top: 250px;
-} */
-
 footer {
   background: #311139;
   color: #ccd1e4;
@@ -199,44 +192,3 @@ footer {
   width: 100%;
   text-align: center;
 }
-/*
-  #contact #login-form{
-    float: right;
-  } */
-/* #contact-form{
-    display: flex;
-    float: left;
-  }
-  #contact-form input, textarea{
-    width: 50%;
-    padding: 12px;
-    border: 1px solid #FFBCD1;
-    border-radius: 3px;
-  }
-  .cbtn{
-    padding: 6px 6px;
-    border: none;
-    border-radius: 3px;
-  }
-
-  
-  #login-form{
-    display: flex;
-    width: 10%;
-    margin: auto;
-    display: inline-block;
-  }
-  
-*/
-
-/* .form-container{
-    padding-top: 10px;
-    border: 3px solid #fff;
-    padding: 20px;
-  }
-  
-  .cform{
-    width: 50%;
-    float: left;
-    padding: 20px;
-  } */
