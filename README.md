@@ -1,1 +1,1 @@
-https://pipeloluwadebayo.github.io/landing-page/
+https://pipeloluwadebayo.github.io/home-page/
